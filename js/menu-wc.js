@@ -289,6 +289,21 @@ customElements.define('compodoc-menu', class extends HTMLElement {
                             </li>
                             <li class="link">
                                 <a href="modules/ProductSearchModule.html" data-type="entity-link">ProductSearchModule</a>
+                                    <li class="chapter inner">
+                                        <div class="simple menu-toggler" data-toggle="collapse" ${ isNormalMode ?
+                                            'data-target="#components-links-module-ProductSearchModule-25cf66536e6b2be6296447d89c3d4d98"' : 'data-target="#xs-components-links-module-ProductSearchModule-25cf66536e6b2be6296447d89c3d4d98"' }>
+                                            <span class="icon ion-md-cog"></span>
+                                            <span>Components</span>
+                                            <span class="icon ion-ios-arrow-down"></span>
+                                        </div>
+                                        <ul class="links collapse" ${ isNormalMode ? 'id="components-links-module-ProductSearchModule-25cf66536e6b2be6296447d89c3d4d98"' :
+                                            'id="xs-components-links-module-ProductSearchModule-25cf66536e6b2be6296447d89c3d4d98"' }>
+                                            <li class="link">
+                                                <a href="components/ProductSearchComponent.html"
+                                                    data-type="entity-link" data-context="sub-entity" data-context-id="modules">ProductSearchComponent</a>
+                                            </li>
+                                        </ul>
+                                    </li>
                             </li>
                             <li class="link">
                                 <a href="modules/TableModule.html" data-type="entity-link">TableModule</a>
@@ -790,6 +805,9 @@ customElements.define('compodoc-menu', class extends HTMLElement {
                                 </li>
                                 <li class="link">
                                     <a href="injectables/ConstraintRuleConditionService.html" data-type="entity-link">ConstraintRuleConditionService</a>
+                                </li>
+                                <li class="link">
+                                    <a href="injectables/ConstraintRuleService.html" data-type="entity-link">ConstraintRuleService</a>
                                 </li>
                                 <li class="link">
                                     <a href="injectables/ContactService.html" data-type="entity-link">ContactService</a>
